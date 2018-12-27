@@ -3,6 +3,7 @@ body {font-family: 'Ubuntu'; text-align: center;}
 .features {position: relative;z-index: 1;}
 .fas:hover {color: #ff4c68;}
 .image-iphone {width: 50%; transform: rotate(25deg); position: absolute; left: 30%;}
+.dwnbtn {margin-right: 6%;}
   /* SETTING */
   .fnubuntu {font-family: 'Ubuntu' sans-serif;}
   .fnmonterrat {font-family: 'Montserrat', sans-serif;}
@@ -36,6 +37,9 @@ body {font-family: 'Ubuntu'; text-align: center;}
   @media (max-width: 880px) {.mda-h1 {}}
   @media (max-width: 576px) {.mdaimg {position: static; transform: none; margin: 0 auto 0 auto;}
     .mda-h1 {text-align: center;font-size: 36px;} .mda-btn {}} */
-
+  @media (max-width: 900px) {.media-small {text-align: left;}.media-h1{font-size: 48px; margin-top: 20%;}.dwnbtn{margin: 2%;}
+  .image-iphone {margin-top: 10%; width: 60%;}}
+  @media (max-width: 900px) {.media-small {text-align: center;}.media-h1{font-size: 42px; margin-top: 20%;}.dwnbtn{margin: 2%;}
+  .image-iphone {position: static; transform: none; margin-top: 10%; width: 50%;}}
   @media (max-width: 576px) {.media-small {text-align: center;}.media-h1{font-size: 36px;}.dwnbtn{margin: 2%;}
   .image-iphone {margin-top: 10%; position: static; width: 70%; transform: none;}}
