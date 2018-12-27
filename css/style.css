@@ -35,8 +35,11 @@ body {font-family: 'Ubuntu'; text-align: center;}
   /* @MEDIA */
   @media (max-width: 920px) {.media-small {text-align: left;}.media-h1{font-size: 48px; margin-top: 20%;}.dwnbtn{margin: 2%;}
   .image-iphone {margin-top: 10%; width: 60%;}}
-  @media (max-width: 860px) {.media-small {text-align: center;}.media-h1{font-size: 42px; margin-top: 20%;}.dwnbtn{margin: 2%;}
-  .image-iphone {position: static; transform: none; margin-top: 10%; width: 50%;}}
+
+  @media (max-width: 768px) {.media-small {text-align: center; margin-top: 0; padding-top: 0}.media-h1{font-size: 36px;}
+  .dwnbtn{margin: 1%; padding: 0; width: 120px; height: 40px; font-size: 16px;}
+  .image-iphone {margin-top: 10%; position: static; width: 40%; transform: none;}}
+
   @media (max-width: 412px) {.media-small {text-align: center;}.media-h1{font-size: 36px;}
   .dwnbtn{margin: 1%; padding: 0; width: 120px; height: 40px; font-size: 16px;}
   .image-iphone {margin-top: 10%; position: static; width: 70%; transform: none;}}
