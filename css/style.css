@@ -33,13 +33,9 @@ body {font-family: 'Ubuntu'; text-align: center;}
   .text-align-right {text-align: right;}
   .text-align-center {text-align: center;}
   /* @MEDIA */
-  /* @media (max-width: 1200px) {}
-  @media (max-width: 880px) {.mda-h1 {}}
-  @media (max-width: 576px) {.mdaimg {position: static; transform: none; margin: 0 auto 0 auto;}
-    .mda-h1 {text-align: center;font-size: 36px;} .mda-btn {}} */
-  @media (max-width: 900px) {.media-small {text-align: left;}.media-h1{font-size: 48px; margin-top: 20%;}.dwnbtn{margin: 2%;}
+  @media (max-width: 920px) {.media-small {text-align: left;}.media-h1{font-size: 48px; margin-top: 20%;}.dwnbtn{margin: 2%;}
   .image-iphone {margin-top: 10%; width: 60%;}}
-  @media (max-width: 900px) {.media-small {text-align: center;}.media-h1{font-size: 42px; margin-top: 20%;}.dwnbtn{margin: 2%;}
+  @media (max-width: 860px) {.media-small {text-align: center;}.media-h1{font-size: 42px; margin-top: 20%;}.dwnbtn{margin: 2%;}
   .image-iphone {position: static; transform: none; margin-top: 10%; width: 50%;}}
   @media (max-width: 576px) {.media-small {text-align: center;}.media-h1{font-size: 36px;}.dwnbtn{margin: 2%;}
   .image-iphone {margin-top: 10%; position: static; width: 70%; transform: none;}}
