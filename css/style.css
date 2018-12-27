@@ -1,0 +1,41 @@
+/* SETTING */
+.fnubuntu {font-family: 'Ubuntu' sans-serif;}
+.fnmonterrat {font-family: 'Montserrat', sans-serif;}
+.fnfjalla {font-family: 'Fjalla One', sans-serif;}
+.fnweight900 {font-weight: 900;}
+.fnsize64px {font-size: 64px;}
+.fnsize48px {font-size: 48px;}
+.fnsize32px {font-size: 28px;}
+.fnsize16px {font-size: 16px;}
+.color1 {color: white;}
+.color2 {color: black;}
+.color3 {color: #ff4c68;}
+.color4 {color: #ef8172;}
+.color5 {color: gray;}
+.bgcolor1 {background-color: #ff4c68;}
+.bgcolor2 {background-color: #ef8172;}
+.bgcolor3 {background-color: red;}
+.bgcolor4 {background-color: white;}
+.padding0 {padding: 0;}
+.padding1 {padding: 1% 11%;}
+.padding2 {padding: 5% 11%;}
+.padding3 {padding: 7.5% 11%;}
+.margin0 {margin: 0;}
+.dlpadding {padding-top: 5%;}
+.dlbtn {margin: 5% 3% 0 0 }
+.text-align-left {text-align: left;}
+.text-align-right {text-align: right;}
+.text-align-center {text-align: center;}
+
+/* SPECIAL FEATURE */
+body {font-family: 'Ubuntu'; text-align: center;}
+.features {position: relative;z-index: 1;}
+.fas:hover {color: #ff4c68;}
+.image-iphone {width: 50%; transform: rotate(25deg); position: absolute; left: 30%;}
+/* @MEDIA */
+@media (max-width: 1200px) {.image-iphone {position: static; transform: none; width: 60%; text-align: center;}
+  .image-iphone {text-align: center;}}
+@media (max-width: 880px) {.image-iphone {position: static; transform: none; width: 100%; text-align: center;}
+  .image-iphone {text-align: center;} .media1 {font-size: 46px}}
+@media (max-width: 576px) {.image-iphone {position: static; transform: none; width: 55%; margin: auto;}
+  .media1 {font-size: 30px; text-align: center;} .button{text-align: center;}}
