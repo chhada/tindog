@@ -28,4 +28,4 @@ em {margin-left: 30px;}           .carousel-item {margin-bottom: 50px;}
 .image-iphone {margin-top: 10%; position: static; width: 40%; transform: none;}}
 @media (max-width: 412px) {.media-small {text-align: center;}.media-h1{font-size: 36px;}
 .dwnbtn{margin: 1%; padding: 0; width: 120px; height: 40px; font-size: 16px;}
-.image-iphone {margin-top: 10%; position: static; width: 70%; transform: none;}}
+.image-iphone {margin-top: 10%; position: static; width: 70%; transform: none;} .testtext{font-size: 20px}}
